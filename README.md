@@ -4,9 +4,9 @@ The Repository Pattern abstracts the communication betweeen application code and
 
 The problem with this pattern in Laravel app is that it ignores the existence of Eloquent, which is in itself a data access abstraction.
 
-I do not advice env helper function on controller because it does not guarantee the proper value.
-
 I like the use of Carbon as date/time management for flexibility and precision.
+
+I do not advice env helper function on controller because it does not guarantee the proper value.
 
 Define Roles in constants inside the Model for the system's reliability and adaptability, eliminating potential production bugs stemming from server discrepancies or future changes.
 ```php
