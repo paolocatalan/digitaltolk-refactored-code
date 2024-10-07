@@ -32,8 +32,9 @@ Separating the business specific operations increaseses code reusability, and ma
 Implement coding style and principles
 <ul>
 <li>Put all database related logic into Eloquent models.</li>
-<li>Follow Locality of Behavior principle</li>
 <li>Create Form Request classes for more complex validation and authorization logic.</li>
 <li>Generate Resources class to provide more control over the response.</li>
+<li>Implement Gates and Policies for handling authentication and authorization</li>
+<li>Follow Locality of Behavior principle</li>
 <li>Write PHP Code with strict typing</li>
 </ul>
