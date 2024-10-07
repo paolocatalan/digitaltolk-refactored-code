@@ -1,6 +1,6 @@
 # Thoughts about the code
 
-The Repository Pattern abstracts the communication application code and database, simplyfying maintenance and testing.
+The Repository Pattern abstracts the communication betweeen application code and database, simplyfying maintenance and testing.
 
 The problem with this pattern in Laravel app is that it ignores the existence of Eloquent, which is in itself a data access abstraction.
 
@@ -14,7 +14,7 @@ $request->__authenticatedUser->user_type == Role::ADMIN_ROLE || $request->__auth
 ```
 
 
-# Refactoring
+# Refactoring to Actions and Services
 
 Extracting logic to Actions makes that action callable from multiple places in our app, it also makes the code easier to test.
 <ul>
